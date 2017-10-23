@@ -298,7 +298,7 @@ function display(data) {
 				y: -y
       };
 			
-      nodes.push(node)
+      nodes.push(node);
 	});
 
 	console.log(nodes);
