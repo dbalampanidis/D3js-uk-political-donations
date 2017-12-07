@@ -327,7 +327,7 @@ function mouseover(d, i) {
 								+ "<p> Recipient: <b>" + party + "</b></p>"
 								+ "<p> Type of donor: <b>" + entity + "</b></p>"
 								+ "<p> Total value: <b>&#163;" + comma(amount) + "</b></p>";
-	var TextToSpeech = new SpeechSynthesisUtterance("Donator's name " + donor + " Donation amount " + amount + " british pounds");
+	var TextToSpeech = new SpeechSynthesisUtterance("The Donor is " + donor + " and he donated " + amount + " british pounds");
 	window.speechSynthesis.speak(TextToSpeech);
 
 
